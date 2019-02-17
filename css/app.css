@@ -1,64 +1,118 @@
-html {
+body {
+
 	background: url(../images/bg.jpg) no-repeat center;			
 	background-size: cover;  			
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	color: #FFF !important;
 }
-body {
-	padding: 0;
-	margin: 0;
-	color: #fff;
-}
+
 h1, h2 {
-	margin: 0;
-	padding: 0;
+
+	margin: 0 !important;
+	padding: 0 !important;
 }
+
 .container {
+
 	display:flex;
 	justify-content: center;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100vh !important;
 }
+
 .message-container {	
-	display: flex;	
-	justify-content:center;	
-	text-align: center;
-	background: rgba(22,22,22, 0.5);
-	/*background-color: beige;*/
-}
-.message {
+
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-	padding: 5px 0 25px 0;
-}	
-.message h1 {
-	font-size:100px;
-	font-weight: 400;
-	font-family: 'Rochester',cursive;
+	justify-content: space-between !important;
+	align-items: center;
+	background: rgba(22,22,22, 0.5);
+	height: auto;
+	padding: 15px !important; 
 }
-.message h2  {
-	font-size:30px;
+
+
+.coming-soon {
+
+	margin-top: 15px;
+	text-align: center;
+
+	align-self: center;
 	display: flex;
-	justify-content: flex-end;	
-	align-items: baseline;
+	justify-content: center;
+}
+
+.message-container h1 {
+
+	font-size: 100px;
+	font-weight: 200;
+	font-family: 'Rochester',cursive !important;
+}
+
+.coming-soon h2  {
+
+	font-size:30px;
 	font-family: 'Thasadith', sans-serif;
 	letter-spacing: 2px;
 }
-.message h2 >i {
-	margin-left:10px;
+
+.coming-soon  i {
+
+	align-self: center;
+	margin:0 10px;
+	font-size: 20px !important;
 }
-@media screen and (max-width: 767px) {			
-	.message h1 {
-		font-size:50px;	
-		margin-bottom:0px; 		
+
+@media screen and (max-width: 720px) {
+	.message-container h1 {
+
+		font-size: 80px;
 	}
-	.message h2 {
-		font-size:20px;	
+
+	.coming-soon i {
+
+		display: none;
 	}
-	i {
-		padding:0 10px;
-	}			
+}
+
+@media screen and (max-width: 650px) {
+	.container-message h1 {
+		margin-bottom: 20px;
+		color: red;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+
+	.message-container h1 {
+
+		font-size: 60px;
+	}
+
+	.coming-soon {
+
+		align-items: center !important;
+	}
+
+	.coming-soon h2 {
+
+		font-size: 20px !important;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+
+	.message-container h1 {
+
+		font-size: 50px;
+	}
+
+	.coming-soon h2 {
+
+		font-size: 18px !important;
+	}
 }
