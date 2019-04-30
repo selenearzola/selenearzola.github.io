@@ -1,45 +1,11 @@
-@keyframes cf3FadeInOut {
-	0% {
-		opacity:1;
-	}
-	45% {
-		opacity:1;
-	}
-	55% {
-		opacity:0;
-	}
-	100% {
-		opacity:0;
-	}
-}
+body {
 
-.bottom {
-	background: url(../images/bg-bottom.jpg) no-repeat center;			
-	background-size: cover;  			
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;	
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
-
-
-.top {
-	background: url(../images/bg-top.jpg) no-repeat center;	
+	background: url(../images/bg.jpg) no-repeat center;			
 	background-size: cover;  			
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	animation-name: cf3FadeInOut;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-duration: 7s;
-	animation-direction: alternate;
-	position: relative;
-	height: 100%;
-	width: 100%;
-	margin: 0;
+	color: #FFF !important;
 }
 
 h1, h2 {
@@ -48,15 +14,10 @@ h1, h2 {
 }
 
 .container {
-
 	display:flex;
 	justify-content: center;
 	flex-direction: column;			
-	color: #fff !important;
 	min-height: 100vh !important;
-	position: absolute;
-	width: 100%;
-	height: auto;
 }
 
 .message-container {	
