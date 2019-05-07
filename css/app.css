@@ -1,19 +1,9 @@
-@keyframes cf3FadeInOut {
-	0% {
-		opacity:1;
-	}
-	45% {
-		opacity:1;
-	}
-	55% {
-		opacity:0;
-	}
-	100% {
-		opacity:0;
-	}
-}
+@-webkit-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
+@-moz-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
+@-ms-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
+@keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 
-.bottom {
+.bg-bottom {
 	background: url(../images/bg-bottom.jpg) no-repeat center;			
 	background-size: cover;  			
 	-webkit-background-size: cover;
@@ -22,16 +12,16 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	z-index: -99999999999;
 }
 
-
-.top {
+.bg-top {
 	background: url(../images/bg-top.jpg) no-repeat center;	
 	background-size: cover;  			
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	animation-name: cf3FadeInOut;
+	animation-name: bgFadeInOut;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-duration: 7s;
@@ -40,6 +30,7 @@
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	z-index: -99999999999;
 }
 
 h1, h2 {
@@ -48,7 +39,6 @@ h1, h2 {
 }
 
 .container {
-
 	display:flex;
 	justify-content: center;
 	flex-direction: column;			
@@ -57,6 +47,7 @@ h1, h2 {
 	position: absolute;
 	width: 100%;
 	height: auto;
+	z-index:99999999999;
 }
 
 .message-container {	
@@ -139,7 +130,6 @@ h1, h2 {
 		display: none;
 	}
 }
-
 
 @media screen and (max-width: 320px) {
 	.message-container {
