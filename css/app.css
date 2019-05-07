@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @-webkit-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 @-moz-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 @-ms-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
@@ -17,10 +18,15 @@
 
 .bg-top {
 	background: url(../images/bg-top.jpg) no-repeat center;	
+=======
+body {
+	background: url(../images/csbg.jpg) no-repeat center;			
+>>>>>>> 6ab653a8355c94ded8d0c0cc2904379e30fd952a
 	background-size: cover;  			
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+<<<<<<< HEAD
 	animation-name: bgFadeInOut;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
@@ -31,6 +37,9 @@
 	width: 100%;
 	margin: 0;
 	z-index: -99999999999;
+=======
+	color: #FFF !important;
+>>>>>>> 6ab653a8355c94ded8d0c0cc2904379e30fd952a
 }
 
 h1, h2 {
@@ -42,12 +51,14 @@ h1, h2 {
 	display:flex;
 	justify-content: center;
 	flex-direction: column;			
-	color: #fff !important;
 	min-height: 100vh !important;
+<<<<<<< HEAD
 	position: absolute;
 	width: 100%;
 	height: auto;
 	z-index:99999999999;
+=======
+>>>>>>> 6ab653a8355c94ded8d0c0cc2904379e30fd952a
 }
 
 .message-container {	
