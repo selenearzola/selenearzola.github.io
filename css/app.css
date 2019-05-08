@@ -4,6 +4,8 @@
 @-ms-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 @keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 
+body{overflow: hidden;}
+
 .bg-bottom {
 	background: url(../images/bg-bottom.jpg) no-repeat center;			
 	background-size: cover;  			
@@ -25,7 +27,7 @@
 	animation-name: bgFadeInOut;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
-	animation-duration: 7s;	
+	animation-duration: 15s;	
 	height: 100vh;
 	width: 100%;	
 	margin: 0;
