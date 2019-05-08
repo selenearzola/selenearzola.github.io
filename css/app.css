@@ -4,7 +4,7 @@
 @-ms-keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 @keyframes bgFadeInOut { 0% { opacity:1; } 45% { opacity:1;} 55% { opacity:0;} 100% { opacity:0;}}
 
-body{overflow: hidden;}
+body{overflow-y: hidden;}
 
 .bg-bottom {
 	background: url(../images/bg-bottom.jpg) no-repeat center;			
