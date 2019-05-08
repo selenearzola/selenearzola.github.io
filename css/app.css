@@ -11,10 +11,8 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;	
 	position: absolute;
-	min-height: 100vh;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
-	min-width: 100vh;
 	z-index: -99999999999;
 }
 
@@ -27,11 +25,9 @@
 	animation-name: bgFadeInOut;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
-	animation-duration: 7s;
-	min-height: 100vh;
-	height: 100%;
-	width: 100%;
-	max-width: 100vh;
+	animation-duration: 7s;	
+	height: 100vh;
+	width: 100%;	
 	margin: 0;
 	z-index: -99999999999;
 }
@@ -51,7 +47,6 @@ h1, h2 {
 	width: 100%;
 	height: auto;
 	z-index:99999999999;
-
 }
 
 .message-container {	
