@@ -11,10 +11,10 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;	
 	position: absolute;
-	max-height: 100%;
+	min-height: 100vh;
 	height: 100%;
 	width: 100%;
-	max-width: 100%;
+	min-width: 100vh;
 	z-index: -99999999999;
 }
 
@@ -28,10 +28,10 @@
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-duration: 7s;
-	max-height: 100%;
+	min-height: 100vh;
 	height: 100%;
 	width: 100%;
-	max-width: 100%;
+	max-width: 100vh;
 	margin: 0;
 	z-index: -99999999999;
 }
@@ -46,7 +46,6 @@ h1, h2 {
 	justify-content: center;
 	flex-direction: column;			
 	min-height: 100vh !important;
-
 	color: #FFF !important;
 	position: absolute;
 	width: 100%;
